@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procent.Samples.TcpIp.Common", "Procent.Samples.TcpIp.Common\Procent.Samples.TcpIp.Common.csproj", "{F528A0F2-D4D9-4954-B0C7-B4466FBC723D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procent.Samples.TcpIp.Server", "Procent.Samples.TcpIp.Server\Procent.Samples.TcpIp.Server.csproj", "{AC71FF2E-6490-4ECC-A8BF-5882367FDA12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procent.Samples.TcpIp.Server.Console", "Procent.Samples.TcpIp.Server.Console\Procent.Samples.TcpIp.Server.Console.csproj", "{2A91491B-13CF-4973-9A4A-92FA675FD059}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5F3A34CA-C19E-4D40-9B05-895BC4BE5269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procent.Samples.TcpIp.Extensions", "Procent.Samples.TcpIp.Extensions\Procent.Samples.TcpIp.Extensions.csproj", "{E1F0E731-81CF-4701-B0A8-FB93A66F2C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F528A0F2-D4D9-4954-B0C7-B4466FBC723D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F528A0F2-D4D9-4954-B0C7-B4466FBC723D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F528A0F2-D4D9-4954-B0C7-B4466FBC723D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F528A0F2-D4D9-4954-B0C7-B4466FBC723D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC71FF2E-6490-4ECC-A8BF-5882367FDA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC71FF2E-6490-4ECC-A8BF-5882367FDA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC71FF2E-6490-4ECC-A8BF-5882367FDA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC71FF2E-6490-4ECC-A8BF-5882367FDA12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A91491B-13CF-4973-9A4A-92FA675FD059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A91491B-13CF-4973-9A4A-92FA675FD059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A91491B-13CF-4973-9A4A-92FA675FD059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A91491B-13CF-4973-9A4A-92FA675FD059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F0E731-81CF-4701-B0A8-FB93A66F2C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F0E731-81CF-4701-B0A8-FB93A66F2C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F0E731-81CF-4701-B0A8-FB93A66F2C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F0E731-81CF-4701-B0A8-FB93A66F2C58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F528A0F2-D4D9-4954-B0C7-B4466FBC723D} = {5F3A34CA-C19E-4D40-9B05-895BC4BE5269}
+		{E1F0E731-81CF-4701-B0A8-FB93A66F2C58} = {5F3A34CA-C19E-4D40-9B05-895BC4BE5269}
+	EndGlobalSection
+EndGlobal

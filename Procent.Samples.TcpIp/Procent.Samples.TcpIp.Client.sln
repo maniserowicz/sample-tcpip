@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procent.Samples.TcpIp.Common", "Procent.Samples.TcpIp.Common\Procent.Samples.TcpIp.Common.csproj", "{F528A0F2-D4D9-4954-B0C7-B4466FBC723D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procent.Samples.TcpIp.Client", "Procent.Samples.TcpIp.Client\Procent.Samples.TcpIp.Client.csproj", "{EF95D3EB-4E26-47F0-8F88-C1FC68EEB80A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procent.Samples.TcpIp.Client.WinForms", "Procent.Samples.TcpIp.Client.WinForms\Procent.Samples.TcpIp.Client.WinForms.csproj", "{FC8DAC62-1556-4771-920C-64AA550534AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E0C79F8A-C5B0-4BF5-BE8C-6ADC83E9F25B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procent.Samples.TcpIp.Extensions", "Procent.Samples.TcpIp.Extensions\Procent.Samples.TcpIp.Extensions.csproj", "{E1F0E731-81CF-4701-B0A8-FB93A66F2C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F528A0F2-D4D9-4954-B0C7-B4466FBC723D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F528A0F2-D4D9-4954-B0C7-B4466FBC723D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F528A0F2-D4D9-4954-B0C7-B4466FBC723D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F528A0F2-D4D9-4954-B0C7-B4466FBC723D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF95D3EB-4E26-47F0-8F88-C1FC68EEB80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF95D3EB-4E26-47F0-8F88-C1FC68EEB80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF95D3EB-4E26-47F0-8F88-C1FC68EEB80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF95D3EB-4E26-47F0-8F88-C1FC68EEB80A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8DAC62-1556-4771-920C-64AA550534AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8DAC62-1556-4771-920C-64AA550534AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8DAC62-1556-4771-920C-64AA550534AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8DAC62-1556-4771-920C-64AA550534AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F0E731-81CF-4701-B0A8-FB93A66F2C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F0E731-81CF-4701-B0A8-FB93A66F2C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F0E731-81CF-4701-B0A8-FB93A66F2C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F0E731-81CF-4701-B0A8-FB93A66F2C58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F528A0F2-D4D9-4954-B0C7-B4466FBC723D} = {E0C79F8A-C5B0-4BF5-BE8C-6ADC83E9F25B}
+		{E1F0E731-81CF-4701-B0A8-FB93A66F2C58} = {E0C79F8A-C5B0-4BF5-BE8C-6ADC83E9F25B}
+	EndGlobalSection
+EndGlobal
